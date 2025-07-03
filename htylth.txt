@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tau-stars-bot
+    env: python
+    buildCommand: ""
+    startCommand: python TauStarsRef.py
+    pythonVersion: 3.10
